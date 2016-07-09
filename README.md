@@ -13,14 +13,14 @@ Make sure these are installed first.
 
 
 ### File Structure
-Add your files to the appropriate `app` subdirectories. Gulp will process and and compile them into `dist`.
+Add files to the appropriate `app` subdirectories. Gulp will process and compile them into `dist`.
 
 * Content in subdirectories under the `js` folder will be concatenated and minified.
 * Content in subdirectories under the `scss` folder will be concatenated, compiled to css, minified, and placed in `dist/css`.
 * Files in the `img` directory will be copied as-is into the `dist/img` directory.
 
 ```
-gulp-boilerplate/
+basic-site-boilerplate/
 |—— app/
 |   |—— css/
 |   |   |—— main.css
@@ -62,7 +62,7 @@ gulp-boilerplate/
 
 ### Quick Start
 Clone repository  
-Add appropriate values to the "name" and "description" (and anything else depending on project) fields in the package.json file.
+Add appropriate values to the "name" and "description" (and anything else depending on project) fields in the package.json file.  
 ```npm install```  
 ```gulp build```  
 ```gulp default```  
